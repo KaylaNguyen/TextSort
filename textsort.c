@@ -21,6 +21,10 @@ void getWords(const char *string, char wordArray[10][20]) {
             j = 0;
         }
     }
+    for (int a = 0; a <= n; a++){
+        printf("%d: %s + ", a, wordArray[a]);
+    }
+    printf("\n");
 }
 
 int compareFunc(const void *a, const void *b) {
@@ -32,7 +36,7 @@ int compareFunc(const void *a, const void *b) {
     getWords(b, arrB);
 //    for(int i=0; i <= aLength;i++)
 //        printf("%s\n", arrA[i]);
-//    printf("Comparing %s and %s", arrA[indexToSort], arrB[indexToSort]);
+    printf("Comparing %s and %s", arrA[indexToSort], arrB[indexToSort]);
     return strcmp(arrA[indexToSort], arrB[indexToSort]);
 
 //    const char* aa = (const char*)a;

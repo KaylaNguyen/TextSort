@@ -1,3 +1,3 @@
-bfirst  bline
+bfirst    bline
 asecond aline
 cthird Aline
